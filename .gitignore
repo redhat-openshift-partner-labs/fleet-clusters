@@ -1,0 +1,29 @@
+# Credentials
+kubeconfig
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.tox/
+.venv/
+.mypy_cache/
+.pytest_cache/
+
+# Node (tekton-lint)
+node_modules/
+
+# IDE
+.idea/
+
+# Misc
+tmp/
+kustomize
+.coverage
+
+docs/plans
