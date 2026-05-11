@@ -32,8 +32,8 @@ jobs:
             echo "::error::provision/$CLUSTER_NAME does not exist"
             exit 1
           fi
-          if [[ ! -f "deprovision/$CLUSTER_NAME" ]]; then
-            echo "::error::deprovision/$CLUSTER_NAME sentinel not found"
+          if [[ ! -f "deprovision/$CLUSTER_NAME-archive" ]]; then
+            echo "::error::deprovision/$CLUSTER_NAME-archive sentinel not found"
             exit 1
           fi
 
@@ -41,13 +41,13 @@ jobs:
         run: |
           CLUSTER_NAME="${{ steps.cluster.outputs.name }}"
           git mv "provision/$CLUSTER_NAME" "archive/$CLUSTER_NAME"
-          rm "deprovision/$CLUSTER_NAME"
+          rm "deprovision/$CLUSTER_NAME-archive"
 
       - name: Commit and push
         run: |
           CLUSTER_NAME="${{ steps.cluster.outputs.name }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "archive/$CLUSTER_NAME" "deprovision/$CLUSTER_NAME"
+          git add "archive/$CLUSTER_NAME" "deprovision/$CLUSTER_NAME-archive"
           git commit -m "archive: $CLUSTER_NAME"
           git push
