@@ -1,0 +1,21 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs-worker
+- op: replace
+  path: /metadata/namespace
+  value: 264c5202-codvoqs
+- op: replace
+  path: /spec/clusterDeploymentRef/name
+  value: 264c5202-codvoqs
+- op: replace
+  path: /spec/platform/aws/type
+  value: m7i.4xlarge
+- op: replace
+  path: /spec/platform/aws/zones
+  value:
+  - us-east-2a
+  - us-east-2b
+  - us-east-2c
+- op: replace
+  path: /spec/replicas
+  value: 1

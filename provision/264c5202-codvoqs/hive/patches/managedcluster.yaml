@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs
+- op: add
+  path: /metadata/labels/name
+  value: 264c5202-codvoqs
+- op: add
+  path: /metadata/labels/tier
+  value: base
+- op: add
+  path: /metadata/labels/environment
+  value: production
+- op: add
+  path: /metadata/labels/region
+  value: us-east-2

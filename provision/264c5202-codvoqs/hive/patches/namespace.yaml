@@ -1,0 +1,3 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs
