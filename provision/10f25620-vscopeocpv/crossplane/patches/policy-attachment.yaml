@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: 10f25620-vscopeocpv-policy-attachment
+- op: replace
+  path: /metadata/namespace
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /spec/forProvider/policyArnRef/name
+  value: 10f25620-vscopeocpv-openshift4installerpolicy
+- op: replace
+  path: /spec/forProvider/userRef/name
+  value: 10f25620-vscopeocpv-ocp-installer
