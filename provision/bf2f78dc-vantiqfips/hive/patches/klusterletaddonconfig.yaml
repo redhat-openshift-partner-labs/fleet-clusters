@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /metadata/namespace
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /spec/clusterName
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /spec/clusterNamespace
+  value: bf2f78dc-vantiqfips

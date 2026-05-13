@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips
+- op: add
+  path: /metadata/labels/name
+  value: bf2f78dc-vantiqfips
+- op: add
+  path: /metadata/labels/tier
+  value: base
+- op: add
+  path: /metadata/labels/environment
+  value: production
+- op: add
+  path: /metadata/labels/region
+  value: us-west-2
