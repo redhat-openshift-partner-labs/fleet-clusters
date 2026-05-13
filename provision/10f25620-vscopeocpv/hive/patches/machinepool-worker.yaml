@@ -1,0 +1,21 @@
+- op: replace
+  path: /metadata/name
+  value: 10f25620-vscopeocpv-worker
+- op: replace
+  path: /metadata/namespace
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /spec/clusterDeploymentRef/name
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /spec/platform/aws/type
+  value: c5d.metal
+- op: replace
+  path: /spec/platform/aws/zones
+  value:
+  - us-east-1a
+  - us-east-1b
+  - us-east-1c
+- op: replace
+  path: /spec/replicas
+  value: 0

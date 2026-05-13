@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: 10f25620-vscopeocpv-install-config
+- op: replace
+  path: /metadata/namespace
+  value: 10f25620-vscopeocpv

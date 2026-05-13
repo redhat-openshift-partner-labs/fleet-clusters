@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /metadata/namespace
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /spec/clusterName
+  value: 10f25620-vscopeocpv
+- op: replace
+  path: /spec/clusterNamespace
+  value: 10f25620-vscopeocpv
