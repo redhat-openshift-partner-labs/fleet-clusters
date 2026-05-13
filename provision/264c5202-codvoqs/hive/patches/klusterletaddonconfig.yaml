@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs
+- op: replace
+  path: /metadata/namespace
+  value: 264c5202-codvoqs
+- op: replace
+  path: /spec/clusterName
+  value: 264c5202-codvoqs
+- op: replace
+  path: /spec/clusterNamespace
+  value: 264c5202-codvoqs

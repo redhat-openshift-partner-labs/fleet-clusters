@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs-access-key
+- op: replace
+  path: /metadata/namespace
+  value: 264c5202-codvoqs
+- op: replace
+  path: /spec/forProvider/userRef/name
+  value: 264c5202-codvoqs-ocp-installer
+- op: replace
+  path: /spec/writeConnectionSecretToRef/namespace
+  value: 264c5202-codvoqs

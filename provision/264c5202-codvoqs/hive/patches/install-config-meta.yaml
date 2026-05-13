@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: 264c5202-codvoqs-install-config
+- op: replace
+  path: /metadata/namespace
+  value: 264c5202-codvoqs
