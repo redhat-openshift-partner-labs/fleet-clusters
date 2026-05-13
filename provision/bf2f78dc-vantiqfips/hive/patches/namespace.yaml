@@ -1,0 +1,3 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips

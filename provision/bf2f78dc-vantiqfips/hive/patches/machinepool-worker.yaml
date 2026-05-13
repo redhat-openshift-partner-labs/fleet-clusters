@@ -1,0 +1,21 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips-worker
+- op: replace
+  path: /metadata/namespace
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /spec/clusterDeploymentRef/name
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /spec/platform/aws/type
+  value: m7i.2xlarge
+- op: replace
+  path: /spec/platform/aws/zones
+  value:
+  - us-west-2a
+  - us-west-2b
+  - us-west-2c
+- op: replace
+  path: /spec/replicas
+  value: 3

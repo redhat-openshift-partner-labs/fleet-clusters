@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips-openshift4installerpolicy
+- op: replace
+  path: /metadata/namespace
+  value: bf2f78dc-vantiqfips

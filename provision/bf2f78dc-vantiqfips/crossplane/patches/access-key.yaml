@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: bf2f78dc-vantiqfips-access-key
+- op: replace
+  path: /metadata/namespace
+  value: bf2f78dc-vantiqfips
+- op: replace
+  path: /spec/forProvider/userRef/name
+  value: bf2f78dc-vantiqfips-ocp-installer
+- op: replace
+  path: /spec/writeConnectionSecretToRef/namespace
+  value: bf2f78dc-vantiqfips
