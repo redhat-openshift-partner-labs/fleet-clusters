@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: test-cluster-01
+- op: add
+  path: /metadata/labels/tier
+  value: virt
+- op: add
+  path: /metadata/labels/environment
+  value: development
+- op: add
+  path: /metadata/labels/name
+  value: test-cluster-01
+- op: add
+  path: /metadata/labels/region
+  value: us-east-1
