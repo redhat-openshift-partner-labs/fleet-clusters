@@ -1,0 +1,21 @@
+- op: replace
+  path: /metadata/name
+  value: 9d0b02b8-zoomcc42-worker
+- op: replace
+  path: /metadata/namespace
+  value: 9d0b02b8-zoomcc42
+- op: replace
+  path: /spec/clusterDeploymentRef/name
+  value: 9d0b02b8-zoomcc42
+- op: replace
+  path: /spec/platform/aws/type
+  value: c5d.metal
+- op: replace
+  path: /spec/platform/aws/zones
+  value:
+  - us-east-2a
+  - us-east-2b
+  - us-east-2c
+- op: replace
+  path: /spec/replicas
+  value: 0
