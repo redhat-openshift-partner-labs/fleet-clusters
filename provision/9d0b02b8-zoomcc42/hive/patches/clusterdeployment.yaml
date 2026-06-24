@@ -18,4 +18,4 @@
   value: 9d0b02b8-zoomcc42-ssh-key
 - op: replace
   path: /spec/provisioning/imageSetRef/name
-  value: quay.io/openshift-release-dev/ocp-release:4.22.2-x86_64
+  value: img4.21.21-x86-64-appsub

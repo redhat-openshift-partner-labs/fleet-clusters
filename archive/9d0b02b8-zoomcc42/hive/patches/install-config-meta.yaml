@@ -1,6 +1,0 @@
-- op: replace
-  path: /metadata/name
-  value: 9d0b02b8-zoomcc42-install-config
-- op: replace
-  path: /metadata/namespace
-  value: 9d0b02b8-zoomcc42
