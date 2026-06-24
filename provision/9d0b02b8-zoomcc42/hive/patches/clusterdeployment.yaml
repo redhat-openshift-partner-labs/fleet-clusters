@@ -18,4 +18,4 @@
   value: 9d0b02b8-zoomcc42-ssh-key
 - op: replace
   path: /spec/provisioning/imageSetRef/name
-  value: img4.21.21-x86-64-appsub
+  value: img4.21.21-multi-appsub
