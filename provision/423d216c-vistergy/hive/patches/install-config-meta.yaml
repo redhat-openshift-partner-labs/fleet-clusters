@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: 423d216c-vistergy-install-config
+- op: replace
+  path: /metadata/namespace
+  value: 423d216c-vistergy

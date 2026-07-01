@@ -1,0 +1,21 @@
+- op: replace
+  path: /metadata/name
+  value: 423d216c-vistergy-worker
+- op: replace
+  path: /metadata/namespace
+  value: 423d216c-vistergy
+- op: replace
+  path: /spec/clusterDeploymentRef/name
+  value: 423d216c-vistergy
+- op: replace
+  path: /spec/platform/aws/type
+  value: m7i.4xlarge
+- op: replace
+  path: /spec/platform/aws/zones
+  value:
+  - us-east-2a
+  - us-east-2b
+  - us-east-2c
+- op: replace
+  path: /spec/replicas
+  value: 3

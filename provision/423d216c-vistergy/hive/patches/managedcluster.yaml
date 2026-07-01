@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: 423d216c-vistergy
+- op: add
+  path: /metadata/labels/name
+  value: 423d216c-vistergy
+- op: add
+  path: /metadata/labels/tier
+  value: base
+- op: add
+  path: /metadata/labels/environment
+  value: development
+- op: add
+  path: /metadata/labels/region
+  value: us-east-2

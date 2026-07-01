@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: 423d216c-vistergy-access-key
+- op: replace
+  path: /metadata/namespace
+  value: 423d216c-vistergy
+- op: replace
+  path: /spec/forProvider/userRef/name
+  value: 423d216c-vistergy-ocp-installer
+- op: replace
+  path: /spec/writeConnectionSecretToRef/namespace
+  value: 423d216c-vistergy
